@@ -34,7 +34,7 @@
 
 .form input {
   width: 100%;
-  border: 1px solid #76c0ae;
+  border: 2px solid #76c0ae;
   padding: 0.5rem;
   border-radius: 0.25rem;
   font-size: 1rem;
@@ -50,4 +50,33 @@
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0; 
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.actions button:first-of-type {
+  font-size: 1rem;
+  border: none;
+  background: transparent;
+  text-transform: capitalize;
+  color: #c2e9e0;
+  cursor: pointer;
+}
+
+.actions button:last-of-type {
+  font-size: 1rem;
+
 }
